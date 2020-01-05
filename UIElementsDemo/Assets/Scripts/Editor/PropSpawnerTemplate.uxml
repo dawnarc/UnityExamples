@@ -1,0 +1,45 @@
+<UXML xmlns="UnityEngine.UIElements">
+  <VisualElement class ="row">
+    <Label text="Choose a GameObject to Spawn" class="header"/>
+  </VisualElement>
+  <VisualElement class ="row">
+    <Button name="Barrel_Large_Prefab" class="prefab-button">
+      <VisualElement name="Icon" class="prefab-button__icon" /> 
+      <Label text="Large Barrel" class="prefab-button__label"/>
+    </Button>
+    <Button name="Barrel_Small_Prefab" class="prefab-button">
+      <VisualElement name="Icon" class="prefab-button__icon" />
+      <Label text="Small Barrel" class="prefab-button__label"/>
+    </Button>
+  </VisualElement>
+  <VisualElement class ="row">
+    <Button name="Cannister_Prefab" class="prefab-button">
+      <VisualElement name="Icon" class="prefab-button__icon" />
+      <Label text="Cannister" class="prefab-button__label"/>
+    </Button>
+    <Button name="Chair_Curved_Prefab" class="prefab-button">
+      <VisualElement name="Icon" class="prefab-button__icon" />
+      <Label text="Chair" class="prefab-button__label"/>
+    </Button>
+  </VisualElement>
+  <VisualElement class ="row">
+    <Button name="Crate_Large_Prefab" class="prefab-button">
+      <VisualElement name="Icon" class="prefab-button__icon" />
+      <Label text="Large Crate" class="prefab-button__label"/>
+    </Button>
+    <Button name="Crate_Medium_Prefab" class="prefab-button">
+      <VisualElement name="Icon" class="prefab-button__icon" />
+      <Label text="Medium Crate" class="prefab-button__label"/>
+    </Button>
+  </VisualElement>
+  <VisualElement class ="row">
+    <Button name="Crate_Small_Prefab" class="prefab-button">
+      <VisualElement name="Icon" class="prefab-button__icon" />
+      <Label text="Small Crate" class="prefab-button__label"/>
+    </Button>
+    <Button name="Plant_Prefab" class="prefab-button">
+      <VisualElement name="Icon" class="prefab-button__icon" />
+      <Label text="Plant" class="prefab-button__label"/>
+    </Button>
+  </VisualElement>
+</UXML>
